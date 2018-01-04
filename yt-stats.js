@@ -1,5 +1,5 @@
 //
-// A script to get YT stats
+// A script to get YT stats by using puppeteer
 // 
 // @author @greenido
 // @date 1/2018
@@ -31,7 +31,7 @@ const numberWithCommas = (x) => {
       totalViews += Number.parseInt(tmpStrViews);
     }
     console.log("** The Total is: " + numberWithCommas(totalViews) + " views");
-    
+
     //
     //
     //
